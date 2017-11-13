@@ -1,19 +1,20 @@
-@-moz-document domain("tweetdeck.twitter.com") {
-.compose-text-container,
-.js-quote-tweet-holder,
-.compose-reply-tweet > .tweet-body > .js-tweet-text,
-.js-compose-text,
-.js-in-reply-to,
-.js-in-reply-to {
-    color: #ddd;
-    background-color: rgb(64, 69, 82) !important;
-}
-.js-in-reply-to {
-    border-bottom: 1px dotted #ddd !important;
-}
-.fullname.link-complex-target {
-    color: rgb(225, 232, 237) !important;
-}
-div.replyto-caret {
-    display: none !important;
+@-moz-document domain(tweetdeck.twitter.com) {
+    .compose-text-container,
+    .js-quote-tweet-holder,
+    .compose-reply-tweet > .tweet-body > .js-tweet-text,
+    .js-compose-text,
+    .js-in-reply-to,
+    .js-in-reply-to {
+        color: #ddd;
+        background-color: rgb(64, 69, 82) !important;
+    }
+    .js-in-reply-to {
+        border-bottom: 1px dotted #ddd !important;
+    }
+    .fullname.link-complex-target {
+        color: rgb(225, 232, 237) !important;
+    }
+    div.replyto-caret {
+        display: none !important;
+    }
 }
